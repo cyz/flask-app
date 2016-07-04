@@ -12,7 +12,7 @@ def home():
     """Renders the home page."""
     return render_template(
         'index.html',
-        title='Página Inicial',
+        title='Home',
         year=datetime.now().year,
     )
 
